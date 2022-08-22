@@ -1,0 +1,10 @@
+PROGRAM arrayReduction
+IMPLICIT NONE
+
+	REAL, DIMENSION(1:6) :: a = (/21.0, 12.0, 33.0, 24.0, 15.0, 16.0/)
+	PRINT *, MAXVAL(a)
+	PRINT *, MINVAL(a)
+	PRINT *, SUM(a)
+	PRINT *, PRODUCT(a)
+
+END PROGRAM arrayReduction

@@ -1,0 +1,13 @@
+PROGRAM pointerEx
+IMPLICIT NONE
+
+	INTEGER, POINTER :: p1
+	ALLOCATE(p1)
+
+	p1 = 1
+	PRINT *, p1
+
+	p1 = p1 + 4
+	PRINT *, p1
+
+END PROGRAM pointerEx
